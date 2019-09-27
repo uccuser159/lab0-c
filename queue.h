@@ -11,7 +11,7 @@
  * It uses a singly-linked list to represent the set of queue elements
  */
 
-/*try*/
+/*hello*/
 
 #include <stdbool.h>
 
@@ -32,6 +32,8 @@ typedef struct {
                         You will need to add more fields to this structure
                         to efficiently implement q_size and q_insert_tail
                       */
+    list_ele_t *tail;
+    int size;
 } queue_t;
 
 /************** Operations on queue ************************/
