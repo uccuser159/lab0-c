@@ -11,6 +11,8 @@
  * It uses a singly-linked list to represent the set of queue elements
  */
 
+/*try*/
+
 #include <stdbool.h>
 
 /************** Data structure declarations ****************/
